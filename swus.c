@@ -3,9 +3,11 @@
 #include <math.h>
 #include "lcgrand.h"  /* Plik nagłówkowy do generatora liczb pseudolosowych. */
 
-#define Q_LIMIT 100  /* Długość bufora */
+#define Q_LIMIT 101  /* Długość bufora */  //bylo 100 ###########3
 #define BUSY      1  /* Flaga zajętości bufora */
 #define IDLE      0  /* Flaga wolnego statnu bufora */
+
+//int goog
 
 int next_event_time;
 int num_custs_delayed;
